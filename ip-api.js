@@ -14,11 +14,11 @@ $httpClient.get(url, function(error, response, data){
 
   const params = {
     icon: 'mappin.and.ellipse',
-    color: '#f50505'
+    color: '#2578e6'
   };
 
   let body = {
-    title: "节点信息",
+    title: "IP inf0",
     content: `IP：${query}\nISP：${isp}\nASN：${as}\n城市：${emoji}${city}`,
     icon: params.icon,
     "icon-color": params.color
