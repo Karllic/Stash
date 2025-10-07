@@ -18,7 +18,7 @@ $httpClient.get(url, function(error, response, data){
   };
 
   let body = {
-    title: "IP inf0",
+    title: "The info",
     content: `IP：${query}\nISP：${isp}\nASN：${as}\n城市：${emoji}${city}`,
     icon: params.icon,
     "icon-color": params.color
